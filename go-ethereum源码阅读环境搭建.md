@@ -28,7 +28,7 @@
 则需要安装gcc工具，我们从下面地址下载并安装
 
 	http://tdm-gcc.tdragon.net/download
-
+(实际下载了 http://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe/download )
 接下来安装IDE工具。 我是用的IDE是JetBrains的Gogland。 可以在下面地址下载
 
 	https://download.jetbrains.com/go/gogland-173.2696.28.exe

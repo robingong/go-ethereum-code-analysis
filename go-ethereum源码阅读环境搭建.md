@@ -76,7 +76,7 @@ go-ethereum项目的组织结构基本上是按照功能模块划分的目录，
 	build			主要是编译和构建的一些脚本和配置
 	cmd			命令行工具，又分了很多的命令行工具，下面一个一个介绍
 		/abigen		Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages
-		/bootnode	启动一个仅仅实现网络发现的节点
+		/bootnode	启动一个仅仅实现网络发现协议（Ethereum Discovery Protocol）的节点
 		/evm		以太坊虚拟机的开发工具， 用来提供一个可配置的，受隔离的代码调试环境
 		/faucet		
 		/geth		以太坊命令行客户端，最重要的一个工具

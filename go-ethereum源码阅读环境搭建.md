@@ -97,12 +97,14 @@ go-ethereum项目的组织结构基本上是按照功能模块划分的目录，
 	contracts	
 	core			以太坊的核心数据结构和算法(虚拟机，状态，区块链，布隆过滤器)
 	crypto			加密和hash算法，
+	dashboard
 	eth			实现了以太坊的协议
 	ethclient		提供了以太坊的RPC客户端
 	ethdb			eth的数据库(包括实际使用的leveldb和供测试使用的内存数据库)
 	ethstats		提供网络状态的报告
 	event			处理实时的事件
-	les			实现了以太坊的轻量级协议子集
+	internal
+	les			实现了以太坊的轻量级协议子集?
 	light			实现为以太坊轻量级客户端提供按需检索的功能
 	log			提供对人机都友好的日志信息
 	metrics			提供磁盘计数器

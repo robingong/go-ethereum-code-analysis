@@ -29,6 +29,8 @@
 
 	http://tdm-gcc.tdragon.net/download
 (实际下载了 http://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe/download )
+再执行 go get github.com/ethereum/go-ethereum ，不会出现问题。
+
 接下来安装IDE工具。 我是用的IDE是JetBrains的Gogland。 可以在下面地址下载
 
 	https://download.jetbrains.com/go/gogland-173.2696.28.exe

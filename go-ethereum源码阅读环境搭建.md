@@ -82,10 +82,11 @@ go-ethereum项目的组织结构基本上是按照功能模块划分的目录，
 		/evm		以太坊虚拟机的开发工具， 用来提供一个可配置的，受隔离的代码调试环境
 		/faucet		
 		/geth		以太坊命令行客户端，最重要的一个工具
+		/internal
 		/p2psim		提供了一个工具来模拟http的API
-		/puppeth	创建一个新的以太坊网络的向导
+		/puppeth	创建和维护一个新的以太坊私有网络的命令（puppeth is a command to assemble and maintain private networks.）
 		/rlpdump 	提供了一个RLP数据的格式化输出
-		/swarm		swarm网络的接入点
+		/swarm		swarm网络的接入点（Swarm是即将到来的文件存储和传输协议）
 		/util		提供了一些公共的工具
 		/wnode		这是一个简单的Whisper节点。 它可以用作独立的引导节点。此外，可以用于不同的测试和诊断目的。
 	common			提供了一些公共的工具类

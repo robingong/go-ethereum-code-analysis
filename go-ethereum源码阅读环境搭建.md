@@ -93,6 +93,7 @@ go-ethereum项目的组织结构基本上是按照功能模块划分的目录，
 	compression		Package rle implements the run-length encoding used for Ethereum data.
 	consensus		提供了以太坊的一些共识算法，比如ethhash, clique(proof-of-authority)
 	console			console类
+	containers		alpine和ubuntu的docker容器file
 	contracts	
 	core			以太坊的核心数据结构和算法(虚拟机，状态，区块链，布隆过滤器)
 	crypto			加密和hash算法，

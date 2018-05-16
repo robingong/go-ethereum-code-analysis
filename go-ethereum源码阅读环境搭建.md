@@ -123,9 +123,15 @@ go-ethereum项目的组织结构基本上是按照功能模块划分的目录，
 
 ### 编译go ethereum
 cd $GOPATH/src/github.com/ethereum/go-ethereum
-make geth
-。。。。。。
-Done building.
-Run "/home/alex/gopath/go-eth188/src/github.com/ethereum/go-ethereum/build/bin/geth" to launch geth.
+
+$ make geth
+
+。。。。。。	
+
+	Done building.
+	Run "/home/alex/gopath/go-eth188/src/github.com/ethereum/go-ethereum/build/bin/geth" to launch geth.
+
+
+
 
 

@@ -172,8 +172,12 @@ $ make geth
 	Loading Go Runtime support.
 	(gdb) info goroutines
 	(gdb) 
+	(gdb) b main.main  //断点设置在 main.main 起始处
+	Breakpoint 1 at 0xcde9b0: file /home/alex/gopath/go-eth188/src/github.com/ethereum/go-ethereum/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go, line 205.
+	(gdb) 
 
-
+参考goland：
+![image](https://github.com/toints/Ethereum-Source-Analysis/blob/master/1.imgs/geth_gdb.jpeg)
 
 
 

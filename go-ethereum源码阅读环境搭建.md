@@ -37,7 +37,7 @@
 
 安装完成后打开IDE. 选择File -> Open -> 选择GOPATH\src\github.com\ethereum\go-ethereum目录打开。
 
-然后打开go-ethereum/rlp/decode_test.go. 在编辑框右键选择运行， 如果运行成功，代表环境搭建完成。
+然后打开go-ethereum/rlp/decode_test.go. 在编辑框右键选择运行， 如果运行成功，代表环境搭建完成。ubuntu和windows，ok。
 
 ![image](https://raw.githubusercontent.com/wugang33/go-ethereum-code-analysis/master/picture/go_env_2.png)
 

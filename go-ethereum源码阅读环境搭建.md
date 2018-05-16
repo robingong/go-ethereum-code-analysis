@@ -131,7 +131,12 @@ $ make geth
 	Done building.
 	Run "/home/alex/gopath/go-eth188/src/github.com/ethereum/go-ethereum/build/bin/geth" to launch geth.
 
+### 调试 go ethereum
 
+使用 dlv 进行调试：
 
+	go get github.com/derekparker/delve/cmd/dlv
+
+其实，直接用goland 内置工具，更方便。
 
 

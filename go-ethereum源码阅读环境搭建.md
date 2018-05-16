@@ -120,3 +120,12 @@ go-ethereum项目的组织结构基本上是按照功能模块划分的目录，
 	whisper			提供了whisper节点的协议。
 
 可以看到以太坊的代码量还是挺大的，但是粗略看，代码结构还是挺好的。我希望先从一些比较独立的模块来进行分析。然后在深入分析内部的代码。重点可能集中在黄皮书里面没有涉及到的p2p网络等模块。
+
+### 编译go ethereum
+cd $GOPATH/src/github.com/ethereum/go-ethereum
+make geth
+。。。。。。
+Done building.
+Run "/home/alex/gopath/go-eth188/src/github.com/ethereum/go-ethereum/build/bin/geth" to launch geth.
+
+

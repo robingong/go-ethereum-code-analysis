@@ -138,5 +138,43 @@ $ make geth
 	go get github.com/derekparker/delve/cmd/dlv
 
 其实，直接用goland 内置工具，更方便。
+使用 gdb 进行调试：
+	$GOPATH/src/github.com/ethereum/go-ethereum$ gdb build/bin/geth
+
+#### 启动geth并加载go语言gdb
+
+alex@ubuntu:~/gopath/go-eth188/src/github.com/ethereum/go-ethereum$ gdb build/bin/geth
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.04) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from build/bin/geth...done.
+warning: File "/home/alex/soft/go/src/runtime/runtime-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
+To enable execution of this file add
+	add-auto-load-safe-path /home/alex/soft/go/src/runtime/runtime-gdb.py
+line to your configuration file "/home/alex/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/home/alex/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+(gdb) info goroutines 
+Undefined info command: "goroutines ".  Try "help info".
+(gdb) source /home/alex/soft/go/src/runtime/runtime-gdb.py
+Loading Go Runtime support.
+(gdb) info goroutines
+(gdb) 
+
 
 

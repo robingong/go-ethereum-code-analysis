@@ -176,6 +176,18 @@ $ make geth
 	Breakpoint 1 at 0xcde9b0: file /home/alex/gopath/go-eth188/src/github.com/ethereum/go-ethereum/build/_workspace/src/github.com/ethereum/go-ethereum/cmd/geth/main.go, line 205.
 	(gdb) 
 
+带参数启动程序（r）  : (gdb) r arg1 arg2
+在文件xxx.go上通过行号设置断点（b） :  (gdb)b xxxt.go:16
+查看断点设置情况（info b）  :  (gdb) info b
+禁用断点（dis n）   :  先用(gdb) info b查看序号，再用序号禁用  (gdb) dis 1
+断点后继续执行（c）   ：   (gdb) c
+显示代码（l）   ：  (gdb) l
+单步执行（n）   ： (gdb) n
+打印变量信息（print/p）   ：   (gdb) p var1
+显示goroutine列表（info goroutines）    ： (gdb) info goroutines 
+参见  http://lday.me/2017/02/27/0005_gdb-vs-dlv/ 
+
+
 参考goland：
 ![image](https://github.com/toints/Ethereum-Source-Analysis/blob/master/1.imgs/geth_gdb.jpeg)
 
